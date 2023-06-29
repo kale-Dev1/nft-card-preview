@@ -11,30 +11,45 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css" />
-
-    <title>Frontend Mentor | NFT preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;300;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <div class="container"><div class="nft-body"><h2> Equilibrium #3429 </h2>
-    <p> Our Equilibrium collection promotes balance and calm.</p>
-  <div><p> 0.041 ETH</p><p>3 days left </p></a></div></div></div>
-  
-    Creation of Jules Wyvern
+    <div class="nft-body">
+      <img src="images/image-equilibrium.jpg" alt="nft" />
+      <h2>Equilibrium #3429</h2>
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+      <div class="inner-component">
+        <span class="eth">
+          <img src="images/icon-ethereum.svg" alt="eth-icon" /> 0.041 ETH</span
+        >
 
+        <span class="date">
+          <img src="images/icon-clock.svg" alt="icon-clock" />3 days left
+        </span>
+      </div>
+      <hr />
+      <!-- <div class="hr"></div> -->
+      <div class="avator">
+        <img src="images/image-avatar.png" alt="avator" />
+        <p>Creation of <span class="name">Jules Wyvern</span></p>
+      </div>
+    </div>
+
+    <!-- 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Kale Kamara</a>.
-    </div>
+      >. Coded by <a href="#">Kale Kamara</a>. -->
+    <!-- </div> -->
   </body>
 </html>
