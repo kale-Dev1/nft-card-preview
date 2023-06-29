@@ -4,5 +4,10 @@
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
 
-  --font-size:15px
+  --font-size: 15px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  
 }
